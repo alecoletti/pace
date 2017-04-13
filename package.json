@@ -1,0 +1,88 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "git+https://github.com/Lewiscowles1986/pace.git",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "git+https://github.com/Lewiscowles1986/pace.git",
+        "spec": "git+https://github.com/Lewiscowles1986/pace.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:Lewiscowles1986/pace.git",
+          "sshUrl": "git+ssh://git@github.com/Lewiscowles1986/pace.git",
+          "httpsUrl": "git+https://github.com/Lewiscowles1986/pace.git",
+          "gitUrl": "git://github.com/Lewiscowles1986/pace.git",
+          "shortcut": "github:Lewiscowles1986/pace",
+          "directUrl": "https://raw.githubusercontent.com/Lewiscowles1986/pace/master/package.json"
+        }
+      },
+      "/Users/mikaelkristiansson/Sites/edimia/umm-client"
+    ]
+  ],
+  "_from": "git+https://github.com/Lewiscowles1986/pace.git",
+  "_id": "pace-progress@1.0.2",
+  "_inCache": true,
+  "_location": "/pace-progress",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "git+https://github.com/Lewiscowles1986/pace.git",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "git+https://github.com/Lewiscowles1986/pace.git",
+    "spec": "git+https://github.com/Lewiscowles1986/pace.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:Lewiscowles1986/pace.git",
+      "sshUrl": "git+ssh://git@github.com/Lewiscowles1986/pace.git",
+      "httpsUrl": "git+https://github.com/Lewiscowles1986/pace.git",
+      "gitUrl": "git://github.com/Lewiscowles1986/pace.git",
+      "shortcut": "github:Lewiscowles1986/pace",
+      "directUrl": "https://raw.githubusercontent.com/Lewiscowles1986/pace/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/Lewiscowles1986/pace.git#ae2dee0306b0b297e0156abe410f630e69b62c09",
+  "_shasum": "082dbd669bd6a56201f46461785fbdaeec8627be",
+  "_shrinkwrap": null,
+  "_spec": "git+https://github.com/Lewiscowles1986/pace.git",
+  "_where": "/Users/mikaelkristiansson/Sites/edimia/umm-client",
+  "authors": [
+    "Zack Bloom <zackbloom@gmail.com>",
+    "Adam Schwartz <adam.flynn.schwartz@gmail.com>"
+  ],
+  "bugs": {
+    "url": "https://github.com/HubSpot/pace/issues"
+  },
+  "dependencies": {},
+  "description": "Automatic page load progress bar",
+  "devDependencies": {
+    "coffee-script": "~1.6.3",
+    "color": "~0.4.4",
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.9",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "gitHead": "ae2dee0306b0b297e0156abe410f630e69b62c09",
+  "homepage": "https://github.com/HubSpot/pace#readme",
+  "license": "MIT",
+  "main": "pace.js",
+  "name": "pace-progress",
+  "optionalDependencies": {},
+  "readme": "pace\n====\n\n<a href=\"https://eager.io/app/kYKTiQjoVjQk/install?source=button\">\n  <img src=\"https://install.eager.io/install-button.png\" border=\"0\" width=\"126\">\n</a>\n\nAn automatic web page progress bar.\n\nInclude [pace.js](https://raw.github.com/HubSpot/pace/v1.0.2/pace.min.js) and a [theme](http://github.hubspot.com/pace/docs/welcome/) of your choice to your page and you are done!\n\nWe also have a [Wordpress Plugin](https://wordpress.org/plugins/pace).\n\nPace will automatically monitor your Ajax requests, event loop lag, document ready state and elements on your page to decide on the progress.\n\nIf you use AMD or Browserify, require pace.js and call `pace.start()` as early in the loading process as is possible.\n\n### [Demo](http://github.hubspot.com/pace/docs/welcome/)\n\n### [Documentation](http://github.hubspot.com/pace/)\n\n### Example\n\n```html\n<head>\n  <script src=\"/pace/pace.js\"></script>\n  <link href=\"/pace/themes/pace-theme-barber-shop.css\" rel=\"stylesheet\" />\n</head>\n```\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/HubSpot/pace.git"
+  },
+  "version": "1.0.2"
+}
